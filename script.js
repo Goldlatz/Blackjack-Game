@@ -12,7 +12,7 @@ let blackjackGame = {
 }
 const You = blackjackGame['you'];
 const Dealer = blackjackGame['dealer'];
-const hitSound = new Audio('/Sound/hit.wav');
+const hitSound = new Audio('/Goldlatz/Blackjack-Game/blob/master/Sound/hit.wav');
 const winSound = new Audio('/Sound/win.mp3');
 const lossSound = new Audio('/Sound/aww.wav');
 document.querySelector('#blackjack-hit-button').addEventListener('click', blackjackhit);
