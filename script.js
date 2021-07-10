@@ -34,7 +34,7 @@ function blackjackhit() {
 function showCard(card, activePlayer) {
     if (activePlayer['score'] <= 21) {
         let cardImage = document.createElement('img');
-        cardImage.src = `/Goldlatz/Blackjack-Game/blob/master/Images/${card}.png`
+        cardImage.src = `Images/${card}.png`
         hitSound.play();
         document.querySelector(activePlayer['div']).appendChild(cardImage);
 
