@@ -14,7 +14,7 @@ const You = blackjackGame['you'];
 const Dealer = blackjackGame['dealer'];
 const hitSound = new Audio('/Blackjack-Game/Sound/hit.wav');
 const winSound = new Audio('/Blackjack-Game/Sound/win.mp3');
-const lossSound = new Audio(/'Blackjack-Game/Sound/aww.wav');
+const lossSound = new Audio('/Blackjack-Game/Sound/aww.wav');
 document.querySelector('#blackjack-hit-button').addEventListener('click', blackjackhit);
 document.querySelector('#blackjack-stand-button').addEventListener('click', dealerLogic);
 document.querySelector('#blackjack-deal-button').addEventListener('click', blackjackDeal);
