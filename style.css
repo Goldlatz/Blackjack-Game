@@ -1,0 +1,69 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    border: 2px solid black;
+    margin: 0 auto;
+    text-align: center;
+    /* align-items: center; */
+}
+.container h1,h3{
+    margin: 5px;
+}
+.flex-box-div-1,.flex-box-div-2,.flex-box-div-3{
+    display: flex;
+   border: 1px solid black;
+   padding: 10px;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
+   
+  
+    
+}
+.flex-box-div-1,.flex-box-div-2{
+    background: url(dark-green-texture_1205-318.jpg)center;
+   color: white
+}
+.flex-box-div-1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-box-div-1 div{
+    border: 1px solid black;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    min-height: 350px;
+}
+/* .flex-box-div-2 button{
+    border: 1px solid black;
+    padding: 10px;
+} */
+.flex-box-div-2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+table,th,td
+{
+    padding:5px;
+    border: 1px solid black;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#blackjack-hit-button{
+    background-color:blue;
+    color: white;
+}
+#blackjack-stand-button{
+    background-color: yellow;
+}
+#blackjack-deal-button{
+    background-color: crimson;
+    color: white;
+}
